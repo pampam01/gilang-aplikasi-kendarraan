@@ -1,0 +1,58 @@
+import '../../models/user_model.dart';
+
+final List<UserModel> mockUsers = [
+  UserModel(
+    idUser: 'U001',
+    nama: 'Administrator BPKAD',
+    username: 'admin',
+    email: 'admin@bpkad-muarojambi.go.id',
+    nomorTelepon: '0812-0000-0000',
+    role: 'Administrator',
+    statusAktif: 'Aktif',
+  ),
+  UserModel(
+    idUser: 'U002',
+    nama: 'Operator Sekretariat',
+    username: 'op_setda',
+    email: 'setda@bpkad-muarojambi.go.id',
+    nomorTelepon: '0812-1111-1111',
+    role: 'Operator',
+    statusAktif: 'Aktif',
+  ),
+  UserModel(
+    idUser: 'U003',
+    nama: 'Operator Dinas Pendidikan',
+    username: 'op_disdik',
+    email: 'disdik@bpkad-muarojambi.go.id',
+    nomorTelepon: '0812-2222-2222',
+    role: 'Operator',
+    statusAktif: 'Aktif',
+  ),
+  UserModel(
+    idUser: 'U004',
+    nama: 'Operator Dinas Kesehatan',
+    username: 'op_dinkes',
+    email: 'dinkes@bpkad-muarojambi.go.id',
+    nomorTelepon: '0812-3333-3333',
+    role: 'Operator',
+    statusAktif: 'Aktif',
+  ),
+  UserModel(
+    idUser: 'U005',
+    nama: 'Budi Santoso',
+    username: 'budi_op',
+    email: 'budi@bpkad-muarojambi.go.id',
+    nomorTelepon: '0812-4444-4444',
+    role: 'Operator',
+    statusAktif: 'Tidak Aktif',
+  ),
+  UserModel(
+    idUser: 'U006',
+    nama: 'Siti Aminah',
+    username: 'siti_op',
+    email: 'siti@bpkad-muarojambi.go.id',
+    nomorTelepon: '0812-5555-5555',
+    role: 'Operator',
+    statusAktif: 'Aktif',
+  ),
+];
